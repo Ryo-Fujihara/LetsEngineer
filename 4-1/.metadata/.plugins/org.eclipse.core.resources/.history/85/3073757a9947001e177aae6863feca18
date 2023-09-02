@@ -1,0 +1,14 @@
+package check;
+
+public class Main {
+	
+	public static void main(String [] args) {
+		
+		//フィールド変数
+		private String firstName ;
+		private String lastName  ;
+		
+		
+	}
+
+}

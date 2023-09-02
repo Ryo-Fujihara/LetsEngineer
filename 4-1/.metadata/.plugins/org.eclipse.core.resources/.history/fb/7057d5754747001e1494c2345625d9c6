@@ -1,0 +1,13 @@
+package check;
+
+public class Main {
+	
+	public static void main(String [] args) {
+		
+		private String firstName ="藤原";
+		private String lastName = "涼" ;
+		
+		
+	}
+
+}
