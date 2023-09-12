@@ -10,7 +10,7 @@ public class Main {
 	
 	private void printName () {
 		
-		System.out.println("printNameメソッド→ "  + firstName + lastName);
+		System.out.println("printNameメソッド→ "  + firstName + this.lastName);
 	}
 
 	public static void main(String [] args) {

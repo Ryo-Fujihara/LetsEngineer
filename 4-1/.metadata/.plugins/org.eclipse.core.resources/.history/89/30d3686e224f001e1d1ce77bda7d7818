@@ -8,15 +8,16 @@ public class Main {
 	private String lastName = "涼";
 	
 	
-	private void printName () {
+	private static void printName (String firstName,String lastName) {
 		
 		System.out.println("printNameメソッド→ "  + firstName + lastName);
 	}
 
 	public static void main(String [] args) {
 		
-		Main pn = new Main();
-		pn.printName();
+		Main.printName(null, null);
+		
+		
 		
 		Pet pt = new Pet(Constants.CHECK_CLASS_JAVA, Constants.CHECK_CLASS_HOGE) ;
 		pt.introduce();

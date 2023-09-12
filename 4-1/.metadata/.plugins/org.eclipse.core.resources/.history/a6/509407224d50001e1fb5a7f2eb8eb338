@@ -4,13 +4,13 @@ import constants.Constants;
 
 public class Main {
 	
-	private String firstName = "藤原";
-	private String lastName = "涼";
+	private String firstName = "abc";
+	private String lastName = "def";
 	
 	
 	private void printName () {
 		
-		System.out.println("printNameメソッド→ "  + firstName + lastName);
+		System.out.println("printNameメソッド→ "  + firstName + this.lastName);
 	}
 
 	public static void main(String [] args) {
